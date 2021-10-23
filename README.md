@@ -19,18 +19,20 @@
 
 * （可选）扩充文件系统到49G。
      将平板连接到电脑，打开cmd或者terminal在有adb的地方输入以下语句(不包含$ 那个只是为了好看~~)
-     当然也可以把49g换成你平板的data分区大小，这里是64g版的data分区大小。
+     
+   * 当然也可以把49g换成你平板的data分区大小，这里是64g版的data分区大小。
      
      ```shell
      $ adb shell
      $ e2fsck -fy /data/rootfs.img
      $ resize2fs /data/rootfs.img 49G
-     
+     ```
+   
 * 重启，enjoy~~
 
 ## 详细教程
 
-*WIP*
+[我的csdn博客](https://blog.csdn.net/github_38345754/article/details/120911574)
 
 ## 赞助
    如果你觉得这个项目帮到你了，可以考虑捐助我，让我做的更好！
