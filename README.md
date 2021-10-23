@@ -11,11 +11,11 @@
 
 * 刷入提供的lineage 16底包。
 
-* 刷入droidian包。
+* 刷入droidian-rootfs包。
 
 * 刷入halium-boot.img到boot分区。
 
-* （可选）刷入调试工具。
+* （可选）刷入调试工具(devtools)。
 
 * （可选）扩充文件系统到49G。
      将平板连接到电脑，打开cmd或者terminal在有adb的地方输入以下语句(不包含$ 那个只是为了好看~~)
