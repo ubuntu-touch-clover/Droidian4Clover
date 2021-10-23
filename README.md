@@ -3,7 +3,7 @@
 
 ## 简单教程
 
-* 在releases中下载需要的包。
+* 在[releases](https://github.com/ubuntu-touch-clover/Droidian-Clover/releases)中下载需要的包。
 
 * 进入twrp recovery
 
@@ -13,7 +13,9 @@
 
 * 刷入droidian包。
 
-* 刷入halium-boot.img。
+* 刷入halium-boot.img到boot分区。
+
+* （可选）刷入调试工具。
 
 * （可选）扩充文件系统到49G。
      将平板连接到电脑，打开cmd或者terminal在有adb的地方输入以下语句(不包含$ 那个只是为了好看~~)
